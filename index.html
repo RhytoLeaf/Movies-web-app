@@ -2,22 +2,23 @@
 
 <head>
 
-
     <link rel="icon" type="image/png" href="./images/logo-icon.png">
-
-
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Wuxi we watch?</title>
 
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/jumbotrons/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css" />
 
     <script src="script.js" defer></script>
 
     <style>
-        form {
+        form, .wuxilogo {
             text-align: center;
             margin: 0 auto;
             /* This will center the header */
@@ -28,11 +29,25 @@
 
 <body>
 
+    <br>
+
+
+    <div class="wuxilogo p-5 text-center bg-body-tertiary rounded-3">
+        <img src="./images/wuxi-logo.png" width="30%" height="auto" style="border-radius: 25%;">
+    </div>
+
+    <br><br>
+
+
+
     <header>
+
         <form id="form">
-            <input type="text" id="search" placeholder="Search" class="search" />
+            <input type="text" id="search" placeholder="Search for more" class="search" />
         </form>
+
     </header>
+
 
     <h1 style="color: antiquewhite; text-align: center;">Recent Releases</h1>
 
